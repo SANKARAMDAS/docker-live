@@ -1,5 +1,5 @@
 #dockerize a node app
-FROM node:12
+FROM node:12.16.1-alpine3.11
 
 # Create app directory
 WORKDIR /the/workdir/path
